@@ -1,0 +1,11 @@
+.overlay-menu {
+    display: none;
+    /* Altri stili per il tuo menu... */
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.overlay-menu.visible {
+    display: block;
+    opacity: 1;
+}

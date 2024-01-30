@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Pratilogin by Pade</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link al tuo file CSS -->
+</head>
+<body>
+
+    <div class="overlay-menu" style="display: none;">
+        <div class="last-user-info">
+            <h2>Ultimo utente salvato</h2>
+            <div class="last-username-box">
+                <span id="lastSavedUsername">NomeUtente</span>
+                <button class="edit-button">Modifica</button>
+                <button class="delete-button">Elimina</button>
+            </div>
+
+            <!-- Form per la modifica, inizialmente nascosto -->
+            <form id="editUserForm" style="display: none;">
+                <input type="text" id="editUsername" placeholder="Username">
+                <input type="password" id="editPassword" placeholder="Password">
+                <button type="button" id="togglePasswordVisibility">Mostra 👁️</button>
+                <button type="submit">Salva</button>
+                <button type="button" class="cancel-edit-button">Annulla Modifica</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <button class="settings-button">Impostazioni</button>
+
+            <button class="pin-button" aria-label="Pinna l'estensione sulla sidebar">📌 Pin</button>
+        </header>
+
+        <main>
+            <section class="user-greeting">
+                <h1>Ciao, Utente!</h1>
+                <div class="last-login-box">
+                    <p id="lastLoginDisplay">Ultimo login: </p>
+                </div>
+                <div class="time-passed-box">
+                    <p id="timerDisplay">Tempo trascorso: </p>
+                </div>
+                <button class="refresh-button">↻</button>
+            </section>
+
+            <button class="start-action-button">Inizia Azione</button>
+        </main>
+
+        <footer>
+            <button class="open-login-button">Apri Login</button>
+            <button class="open-logout-button">Apri Logout</button>
+            <button class="activate-notifications-button">Attiva Notifiche</button>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

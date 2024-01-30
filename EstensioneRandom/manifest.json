@@ -1,0 +1,51 @@
+ {
+  "manifest_version": 3,
+  "name": "PratiLogin by Pade",
+  "description": "Esegue il login al servizio di Praticelli.",
+  "version": "69.420.1.666",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "tabs",
+    "sidePanel",
+    "scripting",
+    "alarms"
+  ],
+
+  "host_permissions": [
+    "https://cp-praticelli.unipi.it/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://cp-praticelli.unipi.it/login.php"],
+      "js": ["WebHandler/login.js"]
+    },
+    {
+      "matches": ["https://cp-praticelli.unipi.it/login.php?indexpage=session"],
+      "js": ["WebHandler/logout.js"]
+    }
+  ],
+
+  "action": {
+    "default_popup": "PopupHandler/popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "side_panel": {
+    "default_path": "PopupHandler/popup.html"
+  },
+
+  "web_accessible_resources": [
+    {
+        "resources": ["FirstAccessWelcome/welcome.html", "FirstAccessWelcome/welcome.js"],
+        "matches": ["<all_urls>"]
+    }
+]
+}
+  
+  
