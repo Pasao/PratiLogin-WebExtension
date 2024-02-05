@@ -11,7 +11,7 @@ Questa sezione ti guiderà attraverso i passaggi per installare l'estensione Chr
 
 ### Passo 1: Scarica l'Estensione
 
-- Vai alla sezione [Releases](URL-alla-sezione-Releases-del-tuo-repository) del repository GitHub.
+- Vai alla sezione [Releases](https://github.com/Pasao/PratiLogin/releases) del repository GitHub.
 - Scarica l'ultima versione dell'estensione.
 
 ### Passo 2: Estrai il File
