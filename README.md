@@ -1,7 +1,9 @@
 # PratiLogin
 
-Pratilogin è un progetto ideato per risolvere alcuni gravi problemi di connessione e interfaccia che per gli studenti risultavano fastidiosi, interrompendoli nei momenti più inopportuni.
-Ciò che fa è usare connettere l'utente assicurandosi che ogni problema venga risolto senza che l'utente se ne accorga, permettendo all'utente di rimanere online finchè lo desidera.
+Pratilogin è un progetto ideato per risolvere alcuni gravi problemi di connessione e interfaccia della rete di Praticelli.
+Per gli studenti i continui errori risultavano fastidiosi, poichè spesso si sono trovati interrotti nei momenti più inopportuni.
+Questa estensione punta a risolvere, o almeno attutire, questi danni.
+In che modo? Connettendo l'utente assicurandosi che ogni problema venga risolto senza che l'utente se ne accorga, permettendo all'utente di rimanere online finchè lo desidera.
 
 ## Installazione
 
