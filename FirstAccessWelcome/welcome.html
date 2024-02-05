@@ -1,0 +1,83 @@
+<!-- welcome.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pratilogin Welcome</title>
+        <style>
+            #message {
+                display: none;
+                margin-top: 20px;
+                font-size: 18px;
+                color: green;
+                border: 1px solid green;
+                padding: 10px;
+                text-align: center;
+            }
+            #infoBox {
+            margin-top: 20px;
+            font-size: 18px;
+            background-color: #28a745; /* Colore di sfondo */
+            color: white; /* Colore del testo */
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            }
+            #closeOrRedirectButton {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            }
+
+            #closeOrRedirectButton:hover {
+            background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Benvenuto in PratiLogin Prototipo v.1.</h1>
+        <div id="infoBox">
+            Perfavore Prima di usare questa estensione controlla i seguenti passi: <br>
+            1 - Sei connesso ad Ethernet. Non che a me cambi molto ma a te potrebbe non funzionare l'estensione. <br>
+            <!-- 
+                <button id="openLogoutPage">Apri Pagina di Logout per Controllare. (Ricordati di chiuderla)</button> <br> 
+            -->
+            <div id="messageContainer" style="display: none;"></div>
+            2 - Inserisci le credenziali (Tranquillo, sono al sicuro. Vengono registrate sul tuo computer in una cartella nascosta creata da Google.) <br>
+        </div>
+
+        <p>Ma non perdiamoci in chiacchiere. Inserisci le tue credenziali Unipi qui sotto. </p>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <span id="togglePasswordVision"> [Mostra - 👁️] </span>
+        <button id="save">Salva Credenziali</button>
+    
+        <div id="messageWrongSteps" style="display: none;"></div>
+
+        <div id="message">
+            <h2>Setup Completato!</h2>
+            <p>Le tue credenziali sono state salvate con successo. Qui accanto trovi la pagina che ti serve ➜ </p>
+            <p>Alcune cosa da ricordare:</p>
+            <p>1 - Questa estensione è pensata per diventare intuitiva. Giocaci, cerca di romperla e se si rompe dammi un feedback che lo aggiusto.</p>
+            <p>2 - Se chiudi Google e non lo riaccendi per lungo periodo non ti preoccupare. Per il momento ti basterà riaprirlo e verrà eseguito di nuovo l'accesso</p>
+            <p><strong>Overview dei comandi</strong></p>
+            <ul>
+                <li>Assicurati di aver inserito le credenziali giuste poi clicca su Avvia autologin. Il gioco è fatto. </li>
+                <li>Se l'autologin si spenge basta riaccenderlo. Se hai l'autologin acceso e la rete non funziona clicca su resetta sessione.</li>
+                <li>Segui le istruzioni nella schermata che appare per modificare le impostazioni o per avviare/fermare l'estensione. (DA FARE)</li>
+            </ul>
+            <p>Ti ho preparato alcuni screenshot qui sotto per guidarti nel processo. (Un giorno lo farò)</p>
+            <!-- Inserisci qui gli screenshot -->
+            <p>MI RACCOMANDO: Ricordati di pinnare l'estensione per un facile accesso e per capire rapidamente se sei connesso.</p>
+            <p>Puoi tranquillamente chiudere questa pagina una volta che hai familiarizzato con i passaggi.</p>
+            <button id="closeOrRedirectButton">Chiudi o Vai a Google</button>
+        </div>
+
+        <script src="welcome.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pratilogin by Pade</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+        }
+        #pinButton {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            /* Aggiungi altri stili qui per renderlo simile a un pin */
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <button id="openLogin">Apri Pagina di Login</button>
+    <button id="openLogout">Apri Pagina di Logout</button>
+    <button id="openSidePanel" title="Non funziona se è già pinnato nella sidebar. Chiudi la sidebar."> Pin on Sidebar 📌</button>
+    </div>
+
+    <div>
+        <div id="lastLoginDisplay">
+            <!-- Qui verrà visualizzata la data dell'ultimo login -->
+        </div>
+        <div id="timerDisplay">
+            <!-- Qui verrà visualizzato il tempo trascorso dall'ultimo login -->
+        </div>
+        <button id="updateButton">↻</button>
+    </div>
+
+    <div id="credentials">
+        <p>Username: <span id="savedUsername"></span></p>
+        <p>Password: <span id="savedPassword"> [Privata] </span></p>
+        <button id="edit">Modifica</button>
+    </div>
+
+    <div id="editCredentials" style="display: none;">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <span id="togglePasswordVisibility"> [Mostra 👁️ Pw] </span>
+        <button id="save">Salva</button>
+        <button id="cancelEdit">Annulla Modifica</button>
+    </div>
+
+        <button id="delete">Elimina Credenziali</button>
+        
+    <div>
+        
+        <button id="toggleExtension" title="Attiva o Disattiva l'autologin.">Attiva Autologin</button>
+    </div>
+
+        <button id="sessionReset">Resetta sessione</button>
+        <button id="connectionTest">Test Connessione</button>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
