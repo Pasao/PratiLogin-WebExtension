@@ -6,8 +6,7 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 È stata sostituita da una versione nuova e migliorata.
 
 **La nuova e attiva versione del progetto è disponibile qui:**
-➡️ [**INSERISCI QUI IL LINK AL NUOVO REPOSITORY QUANDO SARÀ PRONTO**] ⬅️
-*(Ad esempio: `https://github.com/tuo-utente/PratiLogin-NuovaVersione`)*
+➡️ [**LINK NUOVA REPOSITORY**] ⬅️
 
 ---
 
@@ -22,7 +21,7 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 *   **Fault-Tolerance:** Introduzione di meccanismi che permettono al sistema di operare efficacemente anche in presenza di malfunzionamenti parziali, minimizzando i tempi di inattività.
 *   **Affidabilità:** Offrire un servizio su cui gli studenti possono contare per accedere alle risorse educative senza interruzioni, migliorando così il flusso di studio e riducendo i disagi causati da sistemi meno affidabili.
 
-PratiLogin mirava a risolvere i problemi esistenti nell'accesso alla rete, fornendo una soluzione che supporta attivamente l'apprendimento e la produttività degli studenti, eliminando le barriere tecniche che possono interrompere il loro impegno accademico.
+PratiLogin (versione deprecata) mirava a risolvere un problema specifico e frustrante del captive portal della rete universitaria: la frequente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server. Questo bug di sessione spesso impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso. Il progetto si proponeva quindi di fornire una soluzione automatica e semplice per superare questa barriera tecnica, supportando così attivamente l'apprendimento e la produttività degli studenti ed eliminando un ostacolo che poteva interrompere il loro impegno accademico.
 
 ### Installazione (per questa versione deprecata)
 
