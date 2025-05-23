@@ -9,9 +9,11 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 ➡️ [**LINK NUOVA REPOSITORY**] ⬅️
 
 ---
-##Obiettivi e Motivazioni
+## Obiettivi e Motivazioni
 
-PratiLogin (versione deprecata) mirava a risolvere un problema specifico e frustrante del captive portal della rete universitaria: la frequente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server. Questo bug di sessione spesso impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso. Il progetto si proponeva quindi di fornire una soluzione automatica e semplice per superare questa barriera tecnica, supportando così attivamente l'apprendimento e la produttività degli studenti ed eliminando un ostacolo che poteva interrompere il loro impegno accademico.
+La genesi di PratiLogin (versione deprecata) risiede in un problema critico e frustrante del captive portal della rete universitaria: la **persistente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server**. Questo bug, spesso, impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso e interrompendo seriamente l'attività accademica.
+
+Il progetto è stato quindi concepito per fornire una **soluzione automatica e semplice** a questa barriera tecnica. Attraverso l'estensione, gli studenti potevano superare efficacemente il blocco, ripristinando rapidamente l'accesso alla rete e supportando così attivamente il loro apprendimento e la produttività, eliminando un ostacolo che poteva interrompere il loro impegno accademico.
 
 ## Informazioni sulla Versione Deprecata di PratiLogin
 
