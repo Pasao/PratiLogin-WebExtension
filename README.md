@@ -9,6 +9,9 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 ➡️ [**LINK NUOVA REPOSITORY**] ⬅️
 
 ---
+##Obiettivi e Motivazioni
+
+PratiLogin (versione deprecata) mirava a risolvere un problema specifico e frustrante del captive portal della rete universitaria: la frequente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server. Questo bug di sessione spesso impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso. Il progetto si proponeva quindi di fornire una soluzione automatica e semplice per superare questa barriera tecnica, supportando così attivamente l'apprendimento e la produttività degli studenti ed eliminando un ostacolo che poteva interrompere il loro impegno accademico.
 
 ## Informazioni sulla Versione Deprecata di PratiLogin
 
@@ -20,8 +23,6 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 *   **Robustezza:** Implementazione di strutture e protocolli che garantiscono un funzionamento stabile e resistente agli errori comuni.
 *   **Fault-Tolerance:** Introduzione di meccanismi che permettono al sistema di operare efficacemente anche in presenza di malfunzionamenti parziali, minimizzando i tempi di inattività.
 *   **Affidabilità:** Offrire un servizio su cui gli studenti possono contare per accedere alle risorse educative senza interruzioni, migliorando così il flusso di studio e riducendo i disagi causati da sistemi meno affidabili.
-
-PratiLogin (versione deprecata) mirava a risolvere un problema specifico e frustrante del captive portal della rete universitaria: la frequente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server. Questo bug di sessione spesso impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso. Il progetto si proponeva quindi di fornire una soluzione automatica e semplice per superare questa barriera tecnica, supportando così attivamente l'apprendimento e la produttività degli studenti ed eliminando un ostacolo che poteva interrompere il loro impegno accademico.
 
 ### Installazione (per questa versione deprecata)
 
