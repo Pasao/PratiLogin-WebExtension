@@ -45,4 +45,4 @@ Questa sezione ti guiderà attraverso i passaggi per installare **questa vecchia
 
 Dopo aver seguito questi passaggi, l'estensione (vecchia versione) dovrebbe essere installata e pronta all'uso in Chrome.
 
-**Nota:** Questa estensione è fornita **come è**, senza garanzie di alcun tipo, specialmente considerando che è una versione deprecata. Utilizzala a tuo rischio.# [DEPRECATED] PratiLogin (Browser Extension)
+**Nota:** Questa estensione è fornita **come è**, senza garanzie di alcun tipo, specialmente considerando che è una versione deprecata. Utilizzala a tuo rischio.
