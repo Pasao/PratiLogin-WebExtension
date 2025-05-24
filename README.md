@@ -6,7 +6,7 @@ Questa versione di PratiLogin *(Browser Extension version)* è obsoleta e non ri
 È stata sostituita da una versione nuova e migliorata, riadattata al nuovo protocollo.
 
 **La nuova e attiva versione del progetto è disponibile qui:**
-➡️ [**LINK NUOVA REPOSITORY**] ⬅️
+➡️ [**LINK NUOVA REPOSITORY**](https://github.com/Pasao/PratiLogin-desktop) ⬅️
 
 ---
 ## Obiettivi e Motivazioni
