@@ -2,8 +2,8 @@
 
 **⚠️ ATTENZIONE: QUESTA REPOSITORY È DEPRECATA E NON PIÙ MANTENUTA. ⚠️**
 
-Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ulteriori aggiornamenti o supporto.
-È stata sostituita da una versione nuova e migliorata.
+Questa versione di PratiLogin *(Browser Extension version)* è obsoleta e non riceverà ulteriori aggiornamenti o supporto.
+È stata sostituita da una versione nuova e migliorata, riadattata al nuovo protocollo.
 
 **La nuova e attiva versione del progetto è disponibile qui:**
 ➡️ [**LINK NUOVA REPOSITORY**] ⬅️
@@ -11,7 +11,7 @@ Questa versione di PratiLogin (Browser Extension) è obsoleta e non riceverà ul
 ---
 ## Obiettivi e Motivazioni
 
-La genesi di PratiLogin (versione deprecata) risiede in un problema critico e frustrante del captive portal della rete universitaria: la **persistente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server**. Questo bug, spesso, impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso e interrompendo seriamente l'attività accademica.
+La genesi di PratiLogin risiede in un problema critico e frustrante del captive portal della rete universitaria: la **persistente desincronizzazione tra le sessioni utente (lato client) e quelle gestite dal server**. Questo bug, spesso, impediva agli studenti di connettersi alla rete per periodi prolungati, talvolta per ore, bloccando di fatto il loro accesso e interrompendo seriamente l'attività accademica.
 
 Il progetto è stato quindi concepito per fornire una **soluzione automatica e semplice** a questa barriera tecnica. Attraverso l'estensione, gli studenti potevano superare efficacemente il blocco, ripristinando rapidamente l'accesso alla rete e supportando così attivamente il loro apprendimento e la produttività, eliminando un ostacolo che poteva interrompere il loro impegno accademico.
 
@@ -19,7 +19,7 @@ Il progetto è stato quindi concepito per fornire una **soluzione automatica e s
 
 *Le informazioni seguenti si riferiscono a questa versione deprecata e non più supportata.*
 
-**PratiLogin (versione deprecata):** Un sistema di autenticazione progettato per migliorare l'accesso alla rete di Praticelli. Questo progetto si proponeva di rivoluzionare l'esperienza di login degli utenti attraverso:
+**PratiLogin (versione deprecata):** Un sistema di autenticazione progettato per migliorare l'accesso alla rete universitaria all'interno del campus. Questo progetto si proponeva di rivoluzionare l'esperienza di login degli utenti attraverso:
 
 *   **Semplicità d'Uso:** Riduzione delle complicazioni legate al processo di accesso, facilitando un ingresso rapido e senza intoppi nella rete. Il login viene eseguito cliccando un semplice bottone. L'utente viene guidato nel setup iniziale, fornendo le credenziali.
 *   **Robustezza:** Implementazione di strutture e protocolli che garantiscono un funzionamento stabile e resistente agli errori comuni.
